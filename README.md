@@ -11,11 +11,12 @@ Doing so will make it easier to find high quality answers to questions resulting
 Dataset Link : https://www.kaggle.com/competitions/quora-question-pairs/data
 
 #### Example Data point 
-"id","qid1","qid2","question1","question2","is_duplicate"
-"0","1","2","What is the step by step guide to invest in share market in india?","What is the step by step guide to invest in share market?","0"
-"1","3","4","What is the story of Kohinoor (Koh-i-Noor) Diamond?","What would happen if the Indian government stole the Kohinoor (Koh-i-Noor) diamond back?","0"
-"7","15","16","How can I be a good geologist?","What should I do to be a great geologist?","1"
-"11","23","24","How do I read and find my YouTube comments?","How can I see all my Youtube comments?","1"
+| id | qid1 | qid2 | question1 | question2 | is duplicate |
+|----| ---- | ---- | --------- | --------- | ------------ |
+|"0" |"1"|"2"|"What is the step by step guide to invest in share market in india?"|"What is the step by step guide to invest in share market?"|"0"|
+|"1"|"3"|"4"|"What is the story of Kohinoor (Koh-i-Noor) Diamond?"|"What would happen if the Indian government stole the Kohinoor (Koh-i-Noor) diamond back?"|"0"|
+|"7"|"15"|"16"|"How can I be a good geologist?"|"What should I do to be a great geologist?"|"1"|
+|"11"|"23"|"24"|"How do I read and find my YouTube comments?"|"How can I see all my Youtube comments?"|"1"|
 
 ### Feature Extraction:
 - ##### Basic Features - Extracted some features before cleaning of data as below.
